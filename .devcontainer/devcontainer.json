@@ -12,6 +12,9 @@
         "terminal.integrated.defaultProfile.linux": "bash",
         "python.pythonPath": "/opt/conda/bin/python"
     },
+    "containerEnv": {
+        "KAGGLE_MODE": "DEV"
+    },
     "postCreateCommand": ".devcontainer/setup.sh",
     "postAttachCommand": ".devcontainer/setup-mounted.sh",
     "devPort": 8888,
