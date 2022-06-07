@@ -13,6 +13,7 @@
         "python.pythonPath": "/opt/conda/bin/python"
     },
     "postCreateCommand": ".devcontainer/setup.sh",
+    "postAttachCommand": ".devcontainer/setup-mounted.sh",
     "devPort": 8888,
     "shutdownAction": "none"
 }
